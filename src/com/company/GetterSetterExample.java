@@ -6,6 +6,7 @@ public class GetterSetterExample {
     private float score;
     private boolean isStudent;
 
+
     public GetterSetterExample() {}
 
     public GetterSetterExample(String name, int age, float score, boolean student) {
@@ -44,6 +45,6 @@ public class GetterSetterExample {
     }
 
     public void setStudent(boolean student) {
-        this.isStudent = student;
+        isStudent = student;
     }
 }
